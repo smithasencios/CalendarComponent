@@ -1,0 +1,44 @@
+.month-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.year{
+    width: 100%;
+    .name-year{
+        text-align: center;
+    }
+}
+.month{
+     padding: 1em 1em 1em 1em;
+     position: relative;
+     .month-name{
+        padding: 0.5em 0 0.5em;
+        text-align: center;
+        background-color: beige;
+     }
+ }
+ .header-month{
+    width:280px;
+    .week-days{
+        width: 40px;
+        text-align: center;
+    }
+ }
+.week{
+    width:280px;
+    //display: flex;
+}
+.day{
+    width: 40px;
+    text-align: center;
+    background-color: mediumseagreen;
+}
+.weekend{
+    background-color: yellow;
+}
+
+.invalidDay {
+    background-color: gray;
+    color: gray;
+}
